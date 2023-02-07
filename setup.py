@@ -1,13 +1,10 @@
 from setuptools import find_packages, setup
 
 
-from version import __version__
-
 
 setup(
     name="numpy-indexed-fedeful",
     packages=find_packages(),
-    version=__version__,
     install_requires=['numpy', 'future'],
     keywords="numpy group_by set-operations indexing",
     description=open("README.rst").readlines()[5],
