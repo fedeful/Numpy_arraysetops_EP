@@ -13,5 +13,3 @@ __license__ = "LGPL"
 __email__ = "hoogendoorn.eelco@gmail.com"
 
 pkg_dir = os.path.abspath(os.path.dirname(__file__))
-
-__version__ = '0.3.6'
