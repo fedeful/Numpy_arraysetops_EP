@@ -5,7 +5,7 @@ from version import __version__
 
 
 setup(
-    name="numpy-indexed",
+    name="numpy-indexed-fedeful",
     packages=find_packages(),
     version=__version__,
     install_requires=['numpy', 'future'],
