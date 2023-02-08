@@ -1,9 +1,12 @@
 from setuptools import find_packages, setup
 
+from version import __version__
+
 
 
 setup(
     name="numpy-indexed-fedeful",
+    version=__version__,
     packages=find_packages(),
     install_requires=['numpy', 'future'],
     keywords="numpy group_by set-operations indexing",
